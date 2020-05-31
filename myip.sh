@@ -10,7 +10,7 @@ IP=$(ip -o -f inet addr show | awk '/scope global/ {print $4}')
 MASK=$(ip -o -f inet addr show | awk '/scope global/ {print $6}')
 GATEWAY=$(ip route show 0.0.0.0/0 dev $DEV | cut -d\  -f3)
 PUBLIC_IP=$(curl ifconfig.me 2>/dev/null )
-ACTIVE_DNS=$(systemd-resolve --status enp2s0 | grep "Current DNS" | awk '/: / {print $4}' )
+ACTIVE_DNS=$(systemd-resolve --status $DEV | grep "Current DNS" | awk '/: / {print $4}' )
 
 echo "-----------------------------------------"
 echo " NETWORK INFORMATION ver 1.0             "
