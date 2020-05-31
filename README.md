@@ -19,13 +19,17 @@ Now whenever you need that IP info you are always looking for, use the `myip` co
 
         IP Address: 10.0.0.122/24
    Network Adapter: enp2s0
-      Network Mask: 10.0.0.255
+     Wildcard Mask: 10.0.0.255
            Gateway: 10.0.0.2
          Public IP: 207.245.270.253
         Active DNS: 1.1.1.1
 
 -----------------------------------------
 ```
+
+*Note:*A **wildcard mask** is the invert of a **subnet mask**.<br>
+See Wikipedia [Wildcard Mask](https://en.wikipedia.org/wiki/Wildcard_mask)
+
 
 ---
  License: MIT<br>

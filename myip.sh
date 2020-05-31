@@ -18,7 +18,7 @@ echo "-----------------------------------------"
 echo ""
 echo "        IP Address: "$IP
 echo "   Network Adapter: "$DEV
-echo "      Network Mask: "$MASK
+echo "     Wildcard Mask: "$MASK
 echo "           Gateway: "$GATEWAY
 echo "         Public IP: "$PUBLIC_IP
 echo "        Active DNS: "$ACTIVE_DNS
