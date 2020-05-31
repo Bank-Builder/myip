@@ -27,7 +27,7 @@ Now whenever you need that IP info you are always looking for, use the `myip` co
 -----------------------------------------
 ```
 
-*Note:*A **wildcard mask** is the invert of a **subnet mask**.<br>
+Note: A **wildcard mask** is the invert of a **subnet mask**.<br>
 See Wikipedia [Wildcard Mask](https://en.wikipedia.org/wiki/Wildcard_mask)
 
 
