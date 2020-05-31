@@ -7,6 +7,7 @@ To install:
 git clone git@github.com:Bank-Builder/myip.git
 sudo cp myip/myip.sh  /usr/bin/myip
 sudo chmod +x /usr/bin/myip
+rm -rf myip/
 ```
 
 Now whenever you need that IP info you are always looking for, use the `myip` command:
