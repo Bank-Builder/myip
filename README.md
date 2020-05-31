@@ -20,7 +20,7 @@ Now whenever you need that IP info you are always looking for, use the `myip` co
    Network Adapter: enp2s0
       Network Mask: 10.0.0.255
            Gateway: 10.0.0.2
-         Public IP: 197.245.70.253
+         Public IP: 207.245.270.253
         Active DNS: 1.1.1.1
 
 -----------------------------------------
