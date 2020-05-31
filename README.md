@@ -27,6 +27,6 @@ Now whenever you need that IP info you are always looking for, use the `myip` co
 ```
 
 ---
- License: MIT
+ License: MIT<br>
  Copyright (c) 2020 bank-builder
  
